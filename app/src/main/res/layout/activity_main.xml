@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etInputUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:padding="25dp"
+        android:hint="Masukkan Tahun Kelahiran"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <TextView
+        android:id="@+id/tvUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur = "
+        android:gravity="center"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="17090047 - Muhammad Irfan Bakhtiar "
+        android:gravity="center"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+</LinearLayout>
